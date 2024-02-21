@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>©JshSpn</title>
+    <link rel="Website  Icon" type="gif" href="icn.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="button">
+        <h1> Can you be my Valentine?</h1>
+        <div class="yes">
+            <button id="yesButton">Yes, you can❤️</button>
+        </div>
+        <div class="no">
+            <button id="noButton" onclick="moveButton()">No, I'm sorry💔</button>
+        </div>
+    </div>
+
+    <div id="newDesign" style="display: none;" class="yesDisplay">
+        <h3>Thank you so much, This is the best time of my life I'll see you soon❤️</h3>
+        <center><img src="t.gif" class="yesPic"></center>
+        <button id="open-overlay1" class="photoButton">I have one more message for you❤️</button>
+    </div>
+
+    <divc class="noButtonPhotoContainer">
+        <img class="photo" id="photo1" src="1.gif">
+        <img class="photo" id="photo2" src="2.gif">
+        <img class="photo" id="photo3" src="3.gif">
+        <img class="photo" id="photo4" src="4.gif">
+        <img class="photo" id="photo5" src="5.gif">
+        <img class="photo" id="photo6" src="a.gif">
+        <img class="photo" id="photo7" src="b.gif">
+        <img class="photo" id="photo8" src="c.gif">
+        <img class="photo" id="photo9" src="d.gif">
+        <img class="photo" id="photo10" src="e.gif">
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="letter">
+                <p>(please play the music first, then lower the volume if necessary)</p>
+                <h2>I hope you appreciate this brief message I sent for you.</h2>
+                <p>Hello, this is the first time to write a letter for someone I adore, I hope that you like it. First of all, saying beautiful is came very special meaningful to me, I can't really apply it to anything unles it truly comes from deep in my
+                    heart. This letter is for my indescribable feelings I have for you consumes my thoughts. My days are made happier and my heart is warmed by your presence. You go through life with an undeniable attraction that effortlessly draws people
+                    to you and wins their admiration, the way you smile arises pure joy. I feel a strong connection to you that transcends space. In my heart, you have an image that exceeds physical appearance. It captures the very essence of who you
+                    are, the warmth in your smile, the soft power coming from within, and the kindness in your eyes. I can already feel how lovely your heart is and how brilliant your mind is. I find myself thinking about what a wonderful person you must
+                    be every day. I'm aware that this might just be an instance of infatuation, but I don't belive it is. I'm still here to court you whether there's a chance or not. I will wait for the time that you develop your feelings for me out of
+                    nowhere. I want you to know that you are very beautiful ❤️</p>
+                <p>(Enchanted - Taylor Swift)</p>
+                <audio controls><source src="Enchanted.mp3" type="audio/mpeg"></audio><br>
+                <button class="button1" onclick="closeOverlay()">Okayyy❤️</button><br><br>
+            </div>
+        </div>
+
+        <div id="overlay1" class="overlay-1">
+            <div class="overlay-content-1">
+                <p>(If you play the song, then yep i was so enchanted that iv'e met you)</p>
+                <h2>I will love you Endlessly</h2>
+                <p>I want to say that each day i slowly fall inlove in you not on your personal appearance but i fall for you by being you. Like the radiant hues of a breathtaking sunset, you illuminate my world with your presence. Just as the sun's golden
+                    rays paint the sky with warmth and beauty, your smile lights up every room you enter. Your grace and elegance rival the gentle dance of colors at dusk, and your inner beauty shines brighter than the fading sunlight. As the sunset marks
+                    the end of each day, you are the perfect conclusion to all my dreams and aspirations, filling my heart with a sense of wonder and contentment. In this journey of falling in love, my world has transformed into a tapestry of vibrant
+                    colors and melodies. You show power and resilience in your character, just like a flower does when faced with difficulties, standing tall and determined. You overcome the challenges of life with determination, never letting them break
+                    your spirit. You brings happiness and color to my world. Your infectious enthusiasm and laughter are similar to the soft rustle of leaves in a summer breeze. </p>
+                <p>I've grown to value your special traits and the way you add joy to every circumstance. Your kindness is genuinely inspirational, and your laughing is contagious. I'm drawn to you and find you to be a fascinating individual. If you're interested,
+                    I'd like to explore the possibility of anything more as we continue together. Regardless matter where our journeys may take us, I'll always care about you and your happiness❤️</p>
+                <button id="overlay1-button" class="button1">Okayyy❤️</button><br><br>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
